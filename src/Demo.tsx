@@ -70,6 +70,21 @@ export default function ButtonColors() {
           <Radio label="Plain" value="plain" />
         </RadioGroup>
       </Sheet>
+/*  */
+      //
+      <Input
+  placeholder="password"
+  endDecorator={<IconButton size="sm"><Visibility /></IconButton>}
+/>
+
+<Input
+  size="lg"
+  placeholder="password"
+  endDecorator={<IconButton><Visibility /></IconButton>}
+  sx={{ '--Input-radius': '24px' }}
+/>
+
+      
     </Box>
   );
 }
