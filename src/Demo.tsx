@@ -41,20 +41,6 @@ export default function ButtonColors() {
         </Button>
       </Box>
 
-      <Box>
-              <Input
-  placeholder="password"
-  endDecorator={<IconButton size="sm"><Visibility /></IconButton>}
-/>
-
-<Input
-  size="lg"
-  placeholder="password"
-  endDecorator={<IconButton><Visibility /></IconButton>}
-  sx={{ '--Input-radius': '24px' }}
-/>
-
-        <Box/>
       <Sheet
         sx={{
           background: 'transparent',
