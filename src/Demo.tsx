@@ -25,10 +25,10 @@ export default function ButtonColors() {
         }}
       >
         <Button size="md" variant={variant} color="primary">
-          Primary
+          Primary 2 
         </Button>
         <Button size="md" variant={variant} color="neutral">
-          Neutral
+          Neutral sz
         </Button>
         <Button size="md" variant={variant} color="danger">
           Danger
@@ -40,6 +40,21 @@ export default function ButtonColors() {
           Warning
         </Button>
       </Box>
+
+      <Box>
+              <Input
+  placeholder="password"
+  endDecorator={<IconButton size="sm"><Visibility /></IconButton>}
+/>
+
+<Input
+  size="lg"
+  placeholder="password"
+  endDecorator={<IconButton><Visibility /></IconButton>}
+  sx={{ '--Input-radius': '24px' }}
+/>
+
+        <Box/>
       <Sheet
         sx={{
           background: 'transparent',
@@ -70,19 +85,7 @@ export default function ButtonColors() {
           <Radio label="Plain" value="plain" />
         </RadioGroup>
       </Sheet>
-/*  */
-      //
-      <Input
-  placeholder="password"
-  endDecorator={<IconButton size="sm"><Visibility /></IconButton>}
-/>
 
-<Input
-  size="lg"
-  placeholder="password"
-  endDecorator={<IconButton><Visibility /></IconButton>}
-  sx={{ '--Input-radius': '24px' }}
-/>
 
       
     </Box>
