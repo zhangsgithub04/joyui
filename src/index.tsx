@@ -11,10 +11,10 @@ ReactDOM.createRoot(document.querySelector("#root")!).render(
       <CssVarsProvider>
         <Demo />
         
-        <Box> Demo 2 <Box />
+     
         <Demo2/>
         
-        <Box> Demo 3 <Box />
+      
         <DemoAutoComplete />
           
         
