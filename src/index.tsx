@@ -4,7 +4,7 @@ import { StyledEngineProvider, CssVarsProvider } from '@mui/joy/styles';
 import Box from '@mui/joy/Box';
 import Demo from './Demo';
 import Demo2 from './Demo2';
-import DemoAutocomplete from './DemoAutoComplete'; 
+//import DemoAutocomplete from './DemoAutoComplete'; 
 
 ReactDOM.createRoot(document.querySelector("#root")!).render(
   <React.StrictMode>
@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.querySelector("#root")!).render(
         <Demo2/>
         
       
-        <DemoAutocomplete />
+       // <DemoAutocomplete />
           
         
       </CssVarsProvider>
